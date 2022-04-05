@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Gilroy-Bold;
+}
+
+header {
+    height: 80px;
+    line-height: 80px;
+}
+
+main {
+    background-color: #f6f8f9;
+    height: 1200px;
+}
+
+#logo, #scritta {
+    display: inline-block;
+}
+
+#scritta {
+    font-size: 45px;    
+}
+
+#logo {
+    vertical-align: middle;
+}
+
+#container {
+    width: 900px;
+}
