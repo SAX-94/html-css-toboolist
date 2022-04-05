@@ -15,6 +15,14 @@ header {
     background-color: white;
 }
 
+section {
+    margin-bottom: 28px;
+}
+
+h2 {
+    font-size: x-large;
+}
+
 #logo, #scritta {
     display: inline-block;
 }
@@ -66,4 +74,52 @@ header {
     background-color: white;
     color: #9b9d9f;
     border: 2px solid #9b9d9f;
+}
+
+.tick {
+    display: inline-block;
+    width: 23px;
+    color: #6bc3ad;
+    border-radius: 50%;
+    border: 1px solid #6bc3ad;
+}
+
+.cross {
+    display: inline-block;
+    width: 23px;
+    color: #eb5952;
+    border-radius: 50%;
+    border: 1px solid #eb5952;
+}
+
+.tasks {
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 11px;
+    margin-bottom: 8px;
+}
+
+.sticker {
+    display: inline-block;
+    color: white;    
+    padding: 4px 6px;
+    border-radius: 14px;
+    font-size: 11px;
+    width: fit-content;
+}
+
+.editorial {
+    background-color: #45abea;
+}
+
+.q1goals {
+    background-color: #9c72e4;
+}
+
+.recruit {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
 }
